@@ -51,8 +51,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["ts-jest", "virtual:ba05dd277034562e0339660d66181e5a386a4f21eddcbb93dca8ce7e735a47b16d816bd79b3c70f2e63c94d992a1ba8cba8554d102c928ba24404cca8b25b83c#npm:29.1.1"],\
             ["ts-node", "virtual:ba05dd277034562e0339660d66181e5a386a4f21eddcbb93dca8ce7e735a47b16d816bd79b3c70f2e63c94d992a1ba8cba8554d102c928ba24404cca8b25b83c#npm:10.9.1"],\
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
-            ["vite", "virtual:ba05dd277034562e0339660d66181e5a386a4f21eddcbb93dca8ce7e735a47b16d816bd79b3c70f2e63c94d992a1ba8cba8554d102c928ba24404cca8b25b83c#npm:4.4.9"],\
-            ["vite-jest", "virtual:ba05dd277034562e0339660d66181e5a386a4f21eddcbb93dca8ce7e735a47b16d816bd79b3c70f2e63c94d992a1ba8cba8554d102c928ba24404cca8b25b83c#npm:0.1.4"]\
+            ["vite", "virtual:ba05dd277034562e0339660d66181e5a386a4f21eddcbb93dca8ce7e735a47b16d816bd79b3c70f2e63c94d992a1ba8cba8554d102c928ba24404cca8b25b83c#npm:4.4.9"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -3517,15 +3516,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["es-module-lexer", [\
-        ["npm:0.6.0", {\
-          "packageLocation": "./.yarn/cache/es-module-lexer-npm-0.6.0-5445e58f32-ef04832d0f.zip/node_modules/es-module-lexer/",\
-          "packageDependencies": [\
-            ["es-module-lexer", "npm:0.6.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["esbuild", [\
         ["npm:0.18.20", {\
           "packageLocation": "./.yarn/unplugged/esbuild-npm-0.18.20-004a76d281/node_modules/esbuild/",\
@@ -5401,15 +5391,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["jest-transform-stub", [\
-        ["npm:2.0.0", {\
-          "packageLocation": "./.yarn/cache/jest-transform-stub-npm-2.0.0-be9c28dcec-c46134257e.zip/node_modules/jest-transform-stub/",\
-          "packageDependencies": [\
-            ["jest-transform-stub", "npm:2.0.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["jest-util", [\
         ["npm:29.7.0", {\
           "packageLocation": "./.yarn/cache/jest-util-npm-29.7.0-ff1d59714b-042ab4980f.zip/node_modules/jest-util/",\
@@ -5740,16 +5721,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/lz-string-npm-1.5.0-3860794e30-1ee98b4580.zip/node_modules/lz-string/",\
           "packageDependencies": [\
             ["lz-string", "npm:1.5.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["magic-string", [\
-        ["npm:0.25.9", {\
-          "packageLocation": "./.yarn/cache/magic-string-npm-0.25.9-0b51c0ea50-9a0e55a15c.zip/node_modules/magic-string/",\
-          "packageDependencies": [\
-            ["magic-string", "npm:0.25.9"],\
-            ["sourcemap-codec", "npm:1.4.8"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -6575,8 +6546,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["ts-jest", "virtual:ba05dd277034562e0339660d66181e5a386a4f21eddcbb93dca8ce7e735a47b16d816bd79b3c70f2e63c94d992a1ba8cba8554d102c928ba24404cca8b25b83c#npm:29.1.1"],\
             ["ts-node", "virtual:ba05dd277034562e0339660d66181e5a386a4f21eddcbb93dca8ce7e735a47b16d816bd79b3c70f2e63c94d992a1ba8cba8554d102c928ba24404cca8b25b83c#npm:10.9.1"],\
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
-            ["vite", "virtual:ba05dd277034562e0339660d66181e5a386a4f21eddcbb93dca8ce7e735a47b16d816bd79b3c70f2e63c94d992a1ba8cba8554d102c928ba24404cca8b25b83c#npm:4.4.9"],\
-            ["vite-jest", "virtual:ba05dd277034562e0339660d66181e5a386a4f21eddcbb93dca8ce7e735a47b16d816bd79b3c70f2e63c94d992a1ba8cba8554d102c928ba24404cca8b25b83c#npm:0.1.4"]\
+            ["vite", "virtual:ba05dd277034562e0339660d66181e5a386a4f21eddcbb93dca8ce7e735a47b16d816bd79b3c70f2e63c94d992a1ba8cba8554d102c928ba24404cca8b25b83c#npm:4.4.9"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -6886,13 +6856,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["slash", "npm:3.0.0"]\
           ],\
           "linkType": "HARD"\
-        }],\
-        ["npm:4.0.0", {\
-          "packageLocation": "./.yarn/cache/slash-npm-4.0.0-ce4bbc4a80-da8e4af737.zip/node_modules/slash/",\
-          "packageDependencies": [\
-            ["slash", "npm:4.0.0"]\
-          ],\
-          "linkType": "HARD"\
         }]\
       ]],\
       ["smart-buffer", [\
@@ -6952,15 +6915,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["source-map-support", "npm:0.5.13"],\
             ["buffer-from", "npm:1.1.2"],\
             ["source-map", "npm:0.6.1"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["sourcemap-codec", [\
-        ["npm:1.4.8", {\
-          "packageLocation": "./.yarn/cache/sourcemap-codec-npm-1.4.8-3a1a9e60b1-b57981c056.zip/node_modules/sourcemap-codec/",\
-          "packageDependencies": [\
-            ["sourcemap-codec", "npm:1.4.8"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -7587,37 +7541,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             "stylus",\
             "sugarss",\
             "terser"\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["vite-jest", [\
-        ["npm:0.1.4", {\
-          "packageLocation": "./.yarn/cache/vite-jest-npm-0.1.4-0ccad1d1cb-5f994aec2d.zip/node_modules/vite-jest/",\
-          "packageDependencies": [\
-            ["vite-jest", "npm:0.1.4"]\
-          ],\
-          "linkType": "SOFT"\
-        }],\
-        ["virtual:ba05dd277034562e0339660d66181e5a386a4f21eddcbb93dca8ce7e735a47b16d816bd79b3c70f2e63c94d992a1ba8cba8554d102c928ba24404cca8b25b83c#npm:0.1.4", {\
-          "packageLocation": "./.yarn/__virtual__/vite-jest-virtual-8e0fc5e128/0/cache/vite-jest-npm-0.1.4-0ccad1d1cb-5f994aec2d.zip/node_modules/vite-jest/",\
-          "packageDependencies": [\
-            ["vite-jest", "virtual:ba05dd277034562e0339660d66181e5a386a4f21eddcbb93dca8ce7e735a47b16d816bd79b3c70f2e63c94d992a1ba8cba8554d102c928ba24404cca8b25b83c#npm:0.1.4"],\
-            ["@types/jest", "npm:29.5.5"],\
-            ["@types/vite", null],\
-            ["es-module-lexer", "npm:0.6.0"],\
-            ["execa", "npm:5.1.1"],\
-            ["jest", "virtual:ba05dd277034562e0339660d66181e5a386a4f21eddcbb93dca8ce7e735a47b16d816bd79b3c70f2e63c94d992a1ba8cba8554d102c928ba24404cca8b25b83c#npm:29.7.0"],\
-            ["jest-transform-stub", "npm:2.0.0"],\
-            ["magic-string", "npm:0.25.9"],\
-            ["slash", "npm:4.0.0"],\
-            ["vite", "virtual:ba05dd277034562e0339660d66181e5a386a4f21eddcbb93dca8ce7e735a47b16d816bd79b3c70f2e63c94d992a1ba8cba8554d102c928ba24404cca8b25b83c#npm:4.4.9"]\
-          ],\
-          "packagePeers": [\
-            "@types/jest",\
-            "@types/vite",\
-            "jest",\
-            "vite"\
           ],\
           "linkType": "HARD"\
         }]\

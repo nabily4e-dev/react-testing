@@ -1,5 +1,3 @@
-import React from "react";
-
 const Login = () => {
   return (
     <div className="container">
@@ -9,7 +7,7 @@ const Login = () => {
         <button
           type="submit"
           value="Login"
-          onClick={(e: React.MouseEvent<HTMLButtonElement>) => {
+          onClick={(e) => {
             e.preventDefault();
             alert("Login button clicked!");
           }}
