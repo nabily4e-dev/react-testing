@@ -6,7 +6,7 @@ function App() {
     <>
       <h1>React, Vite and TypeScript Login Form Example test</h1>
       <div className="App">
-        <Login />
+        <Login data-testid="login-component" />
       </div>
     </>
   );

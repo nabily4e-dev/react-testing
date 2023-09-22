@@ -1,12 +1,18 @@
-import "@testing-library/jest-dom";
 import App from "@/App";
-import { render } from "@testing-library/react";
+import "@testing-library/jest-dom";
+import { render, screen } from "@testing-library/react";
 
-test("demo", () => {
-  expect(true).toBe(true);
+test("renders the app title", () => {
+  render(<App />);
+  const appTitle = screen.getByRole("heading", {
+    name: "React, Vite and TypeScript Login Form Example test",
+  });
+  expect(appTitle).toBeInTheDocument();
 });
 
-test("Renders the main page", () => {
+// Checking that  the Login component is rendered in the App component
+test("renders the login component", () => {
   render(<App />);
-  expect(true).toBeTruthy();
+  const loginComponent = screen.getByTestId("login-component");
+  expect(loginComponent).toBeInTheDocument();
 });
